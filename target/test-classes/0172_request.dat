@@ -1,0 +1,9 @@
+callCount=1
+page=/adv/adv001.do
+httpSessionId=274BE116FB3803C47A3328F51E1919CB
+scriptSessionId=290462F71CD3B455186B4C9BF5402A72586
+c0-scriptName=DwrLookup
+c0-methodName=getObjectAmphoeByProvince
+c0-id=0
+c0-param0=string:81
+batchId=0

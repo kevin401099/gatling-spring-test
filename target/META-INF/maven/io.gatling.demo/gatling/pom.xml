@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.gatling.demo</groupId>
+  <artifactId>gatling</artifactId>
+  <version>3.11.5</version>
+
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <gatling.version>3.11.5</gatling.version>
+    <gatling-maven-plugin.version>4.9.5</gatling-maven-plugin.version>
+    <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+    <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+    <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+  </properties>
+
+  <dependencies>
+<!--    <dependency>-->
+<!--      <groupId>io.gatling.highcharts</groupId>-->
+<!--      <artifactId>gatling-charts-highcharts</artifactId>-->
+<!--      <version>${gatling.version}</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+	<dependency>
+        <groupId>io.gatling.highcharts</groupId>
+        <artifactId>gatling-charts-highcharts</artifactId>
+        <version>${gatling.version}</version> <!-- Check for the latest version -->
+    </dependency>
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-http</artifactId>
+        <version>${gatling.version}</version> <!-- Check for the latest version -->
+    </dependency>
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-core</artifactId>
+        <version>${gatling.version}</version> <!-- Check for the latest version -->
+    </dependency>
+    <dependency>
+	    <groupId>io.gatling</groupId>
+	    <artifactId>gatling-app</artifactId>
+	    <version>${gatling.version}</version>
+	    <scope>test</scope>
+	</dependency>
+  </dependencies>
+
+  <build>
+	<sourceDirectory>src/main/java</sourceDirectory>
+    <testSourceDirectory>src/test/java</testSourceDirectory>
+    
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven-compiler-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>${maven-resources-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>${maven-jar-plugin.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <phase>package</phase>
+            <configuration>
+              <classifier>tests</classifier>
+              <archive>
+                <manifest>
+                  <addClasspath>true</addClasspath>
+                  <classpathPrefix>lib/</classpathPrefix>
+                  <mainClass>io.gatling.demo.Main</mainClass>
+                </manifest>
+              </archive>
+              <includes>
+                <include>**/Main.class</include>
+                <include>**/Sim.class</include>
+              </includes>
+            </configuration>
+          </execution>
+        </executions>
+<!--        <configuration>-->
+<!--            <archive>-->
+<!--                <manifest>-->
+<!--                    <addClasspath>true</addClasspath>-->
+<!--                    <classpathPrefix>lib/</classpathPrefix>-->
+<!--                    <mainClass>io.gatling.demo.Main</mainClass>  Replace with your main class -->
+<!--                </manifest>-->
+<!--            </archive>-->
+<!--        </configuration>-->
+      </plugin>
+      <plugin>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-maven-plugin</artifactId>
+        <version>${gatling-maven-plugin.version}</version>
+        <configuration>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

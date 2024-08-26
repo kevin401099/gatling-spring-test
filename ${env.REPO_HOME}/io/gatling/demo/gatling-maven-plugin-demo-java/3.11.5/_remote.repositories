@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 15 10:07:42 ICT 2024
+gatling-maven-plugin-demo-java-3.11.5.jar>=
+gatling-maven-plugin-demo-java-3.11.5.pom>=

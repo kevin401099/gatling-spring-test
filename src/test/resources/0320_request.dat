@@ -1,0 +1,9 @@
+callCount=1
+page=/adv/adv001.do
+httpSessionId=238BB427CEAE75BB2AA9BFE387F1C1EA
+scriptSessionId=D206A2FB1136807EDFB1A499CF8336F6327
+c0-scriptName=DwrLookup
+c0-methodName=getLatLongProvinceLocation
+c0-id=0
+c0-param0=string:81
+batchId=0

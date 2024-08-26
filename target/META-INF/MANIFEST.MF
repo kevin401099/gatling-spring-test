@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.4.2
+Build-Jdk-Spec: 17
+Class-Path: lib/gatling-charts-highcharts-3.11.5.jar lib/scala-library-2
+ .13.14.jar lib/gatling-recorder-3.11.5.jar lib/scala-swing_2.13-3.0.0.j
+ ar lib/gatling-recorder-bc-shaded-1.78.1.jar lib/netty-codec-http-4.1.1
+ 11.Final.jar lib/gatling-http-3.11.5.jar lib/gatling-http-client-3.11.5
+ .jar lib/gatling-shared-util_2.13-0.0.8.jar lib/scala-collection-compat
+ _2.13-2.11.0.jar lib/netty-buffer-4.1.111.Final.jar lib/netty-handler-p
+ roxy-4.1.111.Final.jar lib/netty-codec-socks-4.1.111.Final.jar lib/nett
+ y-resolver-dns-4.1.111.Final.jar lib/netty-codec-dns-4.1.111.Final.jar 
+ lib/netty-transport-native-epoll-4.1.111.Final-linux-x86_64.jar lib/net
+ ty-transport-classes-epoll-4.1.111.Final.jar lib/netty-transport-native
+ -epoll-4.1.111.Final-linux-aarch_64.jar lib/netty-codec-http2-4.1.111.F
+ inal.jar lib/netty-resolver-dns-native-macos-4.1.111.Final-osx-x86_64.j
+ ar lib/netty-resolver-dns-classes-macos-4.1.111.Final.jar lib/netty-res
+ olver-dns-native-macos-4.1.111.Final-osx-aarch_64.jar lib/brotli4j-1.16
+ .0.jar lib/service-1.16.0.jar lib/native-linux-x86_64-1.16.0.jar lib/na
+ tive-linux-aarch64-1.16.0.jar lib/native-osx-x86_64-1.16.0.jar lib/nati
+ ve-osx-aarch64-1.16.0.jar lib/native-windows-x86_64-1.16.0.jar lib/slf4
+ j-api-2.0.13.jar lib/scala-logging_2.13-3.9.5.jar lib/scala-reflect-2.1
+ 3.8.jar lib/logback-classic-1.5.6.jar lib/logback-core-1.5.6.jar lib/Sa
+ xon-HE-10.6.jar lib/gatling-core-3.11.5.jar lib/gatling-netty-util-3.11
+ .5.jar lib/netty-incubator-transport-native-io_uring-0.0.25.Final-linux
+ -x86_64.jar lib/netty-incubator-transport-classes-io_uring-0.0.25.Final
+ .jar lib/netty-incubator-transport-native-io_uring-0.0.25.Final-linux-a
+ arch_64.jar lib/gatling-commons-3.11.5.jar lib/config-1.4.3.jar lib/cfo
+ r_2.13-0.3.jar lib/gatling-jsonpath-3.11.5.jar lib/gatling-shared-model
+ _2.13-0.0.6.jar lib/boopickle_2.13-1.3.3.jar lib/gatling-shared-cli-0.0
+ .3.jar lib/spotbugs-annotations-4.8.4.jar lib/jsr305-3.0.2.jar lib/akka
+ -actor_2.13-2.6.20.jar lib/scala-java8-compat_2.13-1.0.0.jar lib/akka-s
+ lf4j_2.13-2.6.20.jar lib/lightning-csv-8.2.3.jar lib/sfm-util-8.2.3.jar
+  lib/caffeine-3.1.8.jar lib/checker-qual-3.37.0.jar lib/error_prone_ann
+ otations-2.21.1.jar lib/pebble-3.2.2.jar lib/unbescape-1.1.6.RELEASE.ja
+ r lib/scala-parser-combinators_2.13-2.4.0.jar lib/scopt_2.13-3.7.1.jar 
+ lib/netty-handler-4.1.111.Final.jar lib/netty-common-4.1.111.Final.jar 
+ lib/netty-resolver-4.1.111.Final.jar lib/netty-transport-4.1.111.Final.
+ jar lib/netty-transport-native-unix-common-4.1.111.Final.jar lib/netty-
+ codec-4.1.111.Final.jar lib/netty-tcnative-classes-2.0.65.Final.jar lib
+ /netty-tcnative-boringssl-static-2.0.65.Final.jar lib/netty-tcnative-bo
+ ringssl-static-2.0.65.Final-linux-x86_64.jar lib/netty-tcnative-borings
+ sl-static-2.0.65.Final-linux-aarch_64.jar lib/netty-tcnative-boringssl-
+ static-2.0.65.Final-osx-x86_64.jar lib/netty-tcnative-boringssl-static-
+ 2.0.65.Final-osx-aarch_64.jar lib/netty-tcnative-boringssl-static-2.0.6
+ 5.Final-windows-x86_64.jar lib/quicklens_2.13-1.9.7.jar lib/jackson-dat
+ abind-2.17.1.jar lib/jackson-annotations-2.17.1.jar lib/jackson-core-2.
+ 17.1.jar lib/jodd-lagarto-6.0.6.jar lib/jodd-util-6.2.2.jar lib/jmespat
+ h-jackson-0.6.0.jar lib/jmespath-core-0.6.0.jar
+Main-Class: io.gatling.demo.Main
+

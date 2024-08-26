@@ -1,0 +1,9 @@
+callCount=1
+page=/adv/adv001.do
+httpSessionId=9609F9138C3BD9C0DC94DA0433322717
+scriptSessionId=51C0C6398C28CCBB0B9388AA233A9158221
+c0-scriptName=DwrLookup
+c0-methodName=changeAdTypeAmount
+c0-id=0
+c0-param0=string:1
+batchId=2
