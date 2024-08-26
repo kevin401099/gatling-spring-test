@@ -14,6 +14,10 @@ On Windows:
 ```console
 mvnw.cmd gatling:test
 ```
+Run with class
+
+gatling:test -Dgatling.simulationClass=io.test.Sim
+
 
 ## Run the Gatling Recorder
 
